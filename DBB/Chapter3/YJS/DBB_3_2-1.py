@@ -10,13 +10,13 @@ nums = list(map(int, input().split()))
 nums.sort(reverse=True)
 
 sum = 0
-life=3
+life=K
 for m in range(M):
     if life!=0:
         sum+=nums[0]
         life -= 1
     else:
         sum+=nums[1]
-        life = 3
+        life = K
 
 print(sum)
