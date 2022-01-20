@@ -19,6 +19,11 @@ while N!=1:
     else:
         N=N/K
         cnt+=1
+        
+while N!=1:
+    N -= 1
+    cnt += 1
+
 print(cnt)
 
 # K가 2 이상이라는 전제조건은 최적해를 위한 중요한 조건이다!!!
