@@ -28,3 +28,11 @@ def bin_search_(arr, target, start, end):
         else:
             start = mid + 1
     return None
+
+# 빠른 입력
+'''
+import sys
+input_data = sys.stdin.readline().rstrip()
+# rstrip으로 마지막 공백문자 제거
+# 부록에 좀 더 효율적인 방법 공개(아직 못 찾음)
+'''
